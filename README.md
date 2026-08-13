@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ALLEN%20JOE%20A&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=VLSI%20Engineer%20%E2%80%A2%20Chip%20Designer%20%E2%80%A2%20RTL%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <!-- Typing Animation Effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Semiconductor+Engineering+%7C+ASIC+Physical+Design;RTL+Design+%7C+Verification;TCAD+Simulation+%7C+Embedded+Systems" alt="Typing SVG" /></a>
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Semiconductor+Engineering+%7C+ASIC+Physical+Design;RTL+Design+%7C+Verification;TCAD+Simulation+%7C+Embedded+Systems" alt="Typing SVG" /></a>
 
 <!-- Animated Badges -->
 <p>
@@ -67,11 +67,11 @@ endmodule
 ### **VLSI Design Flow**
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────────────┐
 │  Specification → RTL Design → Synthesis → Physical Design → Sign-off        │
 │       ↓              ↓            ↓             ↓               ↓            │
 │   Requirements   Verilog/SV   Logic Opt    Place&Route      Tapeout        │
-└─────────────────────────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -156,7 +156,7 @@ endmodule
 ### **EDA & Simulation Tools**
 
 <p>
-  <img src="https://img.shields.io/badge/Synopsys-7B2CBF?style=for-the-badge&logo=synopsys&logoColor=white" />
+  <img src="https://img.shields.io/badge/SynopsyS-7B2CBF?style=for-the-badge&logo=synopsys&logoColor=white" />
   <img src="https://img.shields.io/badge/Cadence-FF0000?style=for-the-badge&logo=cadence&logoColor=white" />
   <img src="https://img.shields.io/badge/ModelSim-0078D4?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/LTspice-8B0000?style=for-the-badge&logo=analog&logoColor=white" />
@@ -175,7 +175,7 @@ endmodule
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&LogoColor=black" />
 </p>
 
 </div>
@@ -354,12 +354,12 @@ endmodule
 <div align="center">
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────────────┐
 │  🎓 VIT Chennai                                                      │
 │  📚 Electronics & VLSI Engineering                                   │
 │  🎯 Specialization: ASIC Design | RTL | Semiconductor Engineering   │
-│  📍 Chennai, India                                                   │
-└──────────────────────────────────────────────────────────────────────┘
+│  📍 Chennai, India                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 **Focus Areas:**
@@ -382,7 +382,7 @@ endmodule
   <a href="https://github.com/ALLENJOE-A">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://linkedin.com/in/allenjoe-a" target="[_blank](https://www.linkedin.com/in/allen-joe-a-36069831b/)">
+  <a href="https://www.linkedin.com/in/allen-joe-a-36069831b/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:allenjoe.a2024@vitstudent.ac.in">
