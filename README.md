@@ -48,23 +48,31 @@ endmodule
 
 ---
 
-## Tools & Technologies &#x2014; Timing Diagram
+## Tools & Technologies
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/timing-diagram-tools.svg" width="100%" alt="Tools Proficiency - Timing Diagram"/>
-
-</div>
+<!-- Placeholder - will be replaced with timing diagram SVG -->
+Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git, ModelSim
 
 ---
 
-## Featured Projects
+## Tape-Out Log &#x2014; Featured Projects
 
-<!-- Placeholder - will be replaced with tape-out log table -->
-- [DG-Source-Pocket-Engineered-Vertical-TFET](https://github.com/ALLENJOE-A/DG-Source-Pocket-Engineered-Vertical-TFET)
-- [Digital-Oscilloscope-STM32](https://github.com/ALLENJOE-A/Digital-Oscilloscope-STM32)
-- [GNN-T_Edge-Error-Prediction-for-Computational-Lithography](https://github.com/ALLENJOE-A/GNN-T_Edge-Error-Prediction-for-Computational-Lithography)
-- Cascode Differential Amplifier (LTspice, no repo yet)
+```
+╔═══════════╦══════════════════════════════════════════════════╦══════════════════════╦════════════════╦══════════════════════════════╗
+║  LOT_ID   ║  PROJECT                                         ║  DOMAIN              ║  STATUS        ║  STACK                       ║
+╠═══════════╬══════════════════════════════════════════════════╬══════════════════════╬════════════════╬══════════════════════════════╣
+║  AJA-001  ║  DG-Source-Pocket-Engineered-Vertical-TFET       ║  TCAD / Device Sim   ║  ■ TAPED OUT   ║  Sentaurus TCAD, Batchfile   ║
+║  AJA-002  ║  Digital-Oscilloscope-STM32                      ║  Embedded Systems    ║  ■ TAPED OUT   ║  STM32, C, ADC+DMA, ILI9341  ║
+║  AJA-003  ║  GNN-T_Edge-Error-Prediction-Lithography         ║  ML / Comp. Litho    ║  ■ TAPED OUT   ║  Python, PyTorch, GNN+Trans   ║
+║  AJA-004  ║  Cascode Differential Amplifier                  ║  Analog / Mixed-Sig  ║  □ IN DESIGN   ║  LTspice, MOSFET, Op-Amp     ║
+╚═══════════╩══════════════════════════════════════════════════╩══════════════════════╩════════════════╩══════════════════════════════╝
+```
+
+> **Repo Links:**
+> [`AJA-001`](https://github.com/ALLENJOE-A/DG-Source-Pocket-Engineered-Vertical-TFET) &#x2022;
+> [`AJA-002`](https://github.com/ALLENJOE-A/Digital-Oscilloscope-STM32) &#x2022;
+> [`AJA-003`](https://github.com/ALLENJOE-A/GNN-T_Edge-Error-Prediction-for-Computational-Lithography) &#x2022;
+> `AJA-004` *(repo coming soon)*
 
 ---
 
