@@ -13,46 +13,22 @@
 ## About Me
 
 ```verilog
-// ──────────────────────────────────────────────────────────────
-//  Module:  allen_joe_engineer
-//  Author:  Allen Joe A
-//  Rev:     1.0  |  VIT Chennai Foundry
-// ──────────────────────────────────────────────────────────────
+module allen_joe_engineer;
 
-module allen_joe_engineer #(
-  parameter  NAME           = "Allen Joe A",
-  parameter  LOCATION       = "Chennai, India",
-  parameter  INSTITUTION    = "VIT Chennai",
-  parameter  DEGREE         = "Electronics & VLSI Engineering"
-)(
-  input  wire        clk,
-  input  wire        rst_n,
-  output reg  [7:0]  innovation
-);
+  // Personal Information
+  parameter NAME = "Allen Joe A";
+  parameter LOCATION = "Chennai, India";
+  parameter INSTITUTION = "VIT Chennai";
+  parameter SPECIALIZATION = "Electronics & VLSI Engineering";
 
-  // ── Internal Signals ──────────────────────────────────────
-  wire  asic_physical_design;    // Floorplan → Tapeout
-  wire  rtl_design;              // Verilog / SystemVerilog
-  wire  functional_verification; // SVA, UVM, Coverage
-  wire  tcad_device_modeling;    // Sentaurus TCAD, VTFET/FinFET
-  wire  gnn_litho_research;     // GNN+Transformer EPE prediction
-  wire  embedded_systems;        // STM32, FPGA, ADC/DMA
+  // Professional Interests
+  wire asic_design, rtl_design, verification;
+  wire semiconductor_modeling, tcad_simulation;
+  wire embedded_systems, fpga_development;
 
-  // ── Combinational Logic ───────────────────────────────────
-  assign innovation = {asic_physical_design,
-                       rtl_design,
-                       functional_verification,
-                       tcad_device_modeling,
-                       gnn_litho_research,
-                       embedded_systems,
-                       2'b11};  // always learning
-
-  // ── Sequential — never stops ──────────────────────────────
-  always @(posedge clk or negedge rst_n) begin
-    if (!rst_n)
-      innovation <= 8'h00;
-    else
-      innovation <= innovation + 1'b1;  // continuous growth
+  always @(*) begin
+    innovation = asic_design & rtl_design & full_custom_design;
+    passion = semiconductor_modeling;
   end
 
 endmodule
@@ -93,10 +69,10 @@ Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALLENJOE-A&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ALLENJOE-A&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALLENJOE-A&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=8899AA&ring_color=00D9FF&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ALLENJOE-A&hide_border=true&background=0D1117&stroke=1A3A4A&ring=00D9FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=00D9FF&currStreakLabel=00D9FF&sideLabels=8899AA&dates=3A5A6A" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALLENJOE-A&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=8" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALLENJOE-A&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=8899AA&langs_count=8" />
 
 </div>
 
