@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      text { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+      .bg { fill: #0D1117; }
+      .border { fill: none; stroke: #1A3A4A; stroke-width: 1; }
+      .signal-label { font-size: 11px; fill: #8899AA; text-anchor: end; }
+      .signal-active { font-size: 11px; fill: #FFFFFF; text-anchor: end; font-weight: 700; }
+      .grid-v { stroke: #0A1A2A; stroke-width: 0.5; stroke-dasharray: 2,4; }
+      .grid-h { stroke: #0A1A2A; stroke-width: 0.5; }
+      .axis-label { font-size: 8px; fill: #2A4A5A; text-anchor: middle; }
+      .title { font-size: 11px; fill: #3A6A7A; letter-spacing: 3px; text-anchor: middle; }
+      .clk-line { stroke: #3A5A6A; stroke-width: 1; fill: none; }
+      .time-marker { font-size: 7px; fill: #2A4A5A; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="880" height="380"/>
+  <rect class="border" x="5" y="5" width="870" height="370"/>
+
+  <!-- Title -->
+  <text class="title" x="440" y="30">TOOL PROFICIENCY  &#x2014;  TIMING DIAGRAM</text>
+
+  <!-- Time axis labels -->
+  <text class="time-marker" x="180" y="48">0ns</text>
+  <text class="time-marker" x="280" y="48">100ns</text>
+  <text class="time-marker" x="380" y="48">200ns</text>
+  <text class="time-marker" x="480" y="48">300ns</text>
+  <text class="time-marker" x="580" y="48">400ns</text>
+  <text class="time-marker" x="680" y="48">500ns</text>
+  <text class="time-marker" x="780" y="48">600ns</text>
+  <text class="time-marker" x="840" y="48">700ns</text>
+
+  <!-- Vertical grid lines (time divisions) -->
+  <line class="grid-v" x1="180" y1="55" x2="180" y2="355"/>
+  <line class="grid-v" x1="280" y1="55" x2="280" y2="355"/>
+  <line class="grid-v" x1="380" y1="55" x2="380" y2="355"/>
+  <line class="grid-v" x1="480" y1="55" x2="480" y2="355"/>
+  <line class="grid-v" x1="580" y1="55" x2="580" y2="355"/>
+  <line class="grid-v" x1="680" y1="55" x2="680" y2="355"/>
+  <line class="grid-v" x1="780" y1="55" x2="780" y2="355"/>
+
+  <!-- ==================== SIGNAL TRACES ==================== -->
+  <!-- Each signal: label on left, waveform trace showing "active" (high) duration -->
+  <!-- Longer high = more central to work -->
+
+  <!-- CLK reference at top -->
+  <text class="signal-label" x="165" y="72">CLK</text>
+  <polyline class="clk-line" points="180,75 200,75 200,60 220,60 220,75 240,75 240,60 260,60 260,75 280,75 280,60 300,60 300,75 320,75 320,60 340,60 340,75 360,75 360,60 380,60 380,75 400,75 400,60 420,60 420,75 440,75 440,60 460,60 460,75 480,75 480,60 500,60 500,75 520,75 520,60 540,60 540,75 560,75 560,60 580,60 580,75 600,75 600,60 620,60 620,75 640,75 640,60 660,60 660,75 680,75 680,60 700,60 700,75 720,75 720,60 740,60 740,75 760,75 760,60 780,60 780,75 800,75 800,60 820,60 820,75 840,75"/>
+
+  <!-- Horizontal separator -->
+  <line class="grid-h" x1="15" y1="85" x2="860" y2="85"/>
+
+  <!-- Signal 1: Verilog — very high duty cycle (90%) -->
+  <text class="signal-active" x="165" y="108">Verilog</text>
+  <polyline points="180,115 180,95 780,95 780,115 840,115" stroke="#00D9FF" stroke-width="2" fill="none"/>
+  <line class="grid-h" x1="15" y1="125" x2="860" y2="125"/>
+
+  <!-- Signal 2: SystemVerilog — high duty cycle (80%) -->
+  <text class="signal-active" x="165" y="148">SystemVerilog</text>
+  <polyline points="180,155 180,135 720,135 720,155 840,155" stroke="#00BFFF" stroke-width="2" fill="none"/>
+  <line class="grid-h" x1="15" y1="165" x2="860" y2="165"/>
+
+  <!-- Signal 3: Sentaurus TCAD — high (75%) -->
+  <text class="signal-active" x="165" y="188">Sentaurus</text>
+  <polyline points="180,195 180,175 680,175 680,195 840,195" stroke="#FF6B6B" stroke-width="2" fill="none"/>
+  <line class="grid-h" x1="15" y1="205" x2="860" y2="205"/>
+
+  <!-- Signal 4: Python — medium-high (65%) -->
+  <text class="signal-label" x="165" y="228">Python</text>
+  <polyline points="180,235 180,215 620,215 620,235 840,235" stroke="#C084FC" stroke-width="2" fill="none"/>
+  <line class="grid-h" x1="15" y1="245" x2="860" y2="245"/>
+
+  <!-- Signal 5: Cadence — medium (55%) -->
+  <text class="signal-label" x="165" y="268">Cadence</text>
+  <polyline points="180,275 180,255 560,255 560,275 840,275" stroke="#00FF88" stroke-width="2" fill="none"/>
+  <line class="grid-h" x1="15" y1="285" x2="860" y2="285"/>
+
+  <!-- Signal 6: STM32/Embedded — medium (50%) -->
+  <text class="signal-label" x="165" y="308">STM32</text>
+  <polyline points="180,315 180,295 520,295 520,315 840,315" stroke="#FFD93D" stroke-width="2" fill="none"/>
+  <line class="grid-h" x1="15" y1="325" x2="860" y2="325"/>
+
+  <!-- Signal 7: LTspice — moderate (40%) -->
+  <text class="signal-label" x="165" y="348">LTspice</text>
+  <polyline points="180,355 180,335 460,335 460,355 840,355" stroke="#FF9F43" stroke-width="2" fill="none"/>
+
+  <!-- Signal 8: Git — always on but low (background) -->
+  <text class="signal-label" x="165" y="368" style="font-size:8px;fill:#2A4A5A">Git</text>
+  <line x1="180" y1="362" x2="840" y2="362" stroke="#3A5A6A" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Legend note -->
+  <text style="font-size:8px;fill:#2A4A5A" x="20" y="370">HIGH = actively used | Duration &#x221D; centrality to workflow</text>
+</svg>

@@ -36,20 +36,25 @@ endmodule
 
 ---
 
-## Chip Floorplan &#x2014; Skills & Expertise
+## VLSI & Semiconductor Skills
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/floorplan-skills.svg" width="100%" alt="Chip Floorplan - Skills & Expertise Diagram"/>
-
-</div>
+<!-- Placeholder - will be replaced with floorplan SVG -->
+- RTL Design (Verilog/SystemVerilog)
+- Verification (SVA, testbenches)
+- Physical Design (PnR, CTS, timing)
+- TCAD Device Modeling (Sentaurus)
+- GNN Research (computational lithography)
+- Embedded Systems (STM32, FPGA)
 
 ---
 
-## Tools & Technologies
+## Tools & Technologies &#x2014; Timing Diagram
 
-<!-- Placeholder - will be replaced with timing diagram SVG -->
-Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git, ModelSim
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/timing-diagram-tools.svg" width="100%" alt="Tools Proficiency - Timing Diagram"/>
+
+</div>
 
 ---
 
