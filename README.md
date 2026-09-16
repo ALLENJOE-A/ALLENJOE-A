@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- Header placeholder - will be replaced with custom die-shot SVG in next commit -->
-# ALLEN JOE A
-**VLSI Engineer | Chip Designer | RTL Developer**
+<!-- Die-shot / reticle header banner -->
+<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/header-die-shot.svg" width="100%" alt="Allen Joe A - VLSI Engineer | Chip Designer | RTL Developer"/>
 
 <!-- Typing Animation Effect -->
 <a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=ASIC+Physical+Design+%7C+RTL+Design;TCAD+%2F+Device+Modeling+%7C+GNN+Research;Functional+Verification+%7C+Embedded+Systems" alt="Typing SVG" /></a>
@@ -15,23 +14,23 @@
 
 ```verilog
 module allen_joe_engineer;
-  
+
   // Personal Information
   parameter NAME = "Allen Joe A";
   parameter LOCATION = "Chennai, India";
   parameter INSTITUTION = "VIT Chennai";
   parameter SPECIALIZATION = "Electronics & VLSI Engineering";
-  
+
   // Professional Interests
   wire asic_design, rtl_design, verification;
   wire semiconductor_modeling, tcad_simulation;
   wire embedded_systems, fpga_development;
-  
+
   always @(*) begin
     innovation = asic_design & rtl_design & full_custom_design;
     passion = semiconductor_modeling;
   end
-  
+
 endmodule
 ```
 
