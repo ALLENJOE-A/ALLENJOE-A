@@ -8,62 +8,98 @@
 
 </div>
 
----
+<br/>
 
 ## About Me
 
 ```verilog
-module allen_joe_engineer;
+// ──────────────────────────────────────────────────────────────
+//  Module:  allen_joe_engineer
+//  Author:  Allen Joe A
+//  Rev:     1.0  |  VIT Chennai Foundry
+// ──────────────────────────────────────────────────────────────
 
-  // Personal Information
-  parameter NAME = "Allen Joe A";
-  parameter LOCATION = "Chennai, India";
-  parameter INSTITUTION = "VIT Chennai";
-  parameter SPECIALIZATION = "Electronics & VLSI Engineering";
+module allen_joe_engineer #(
+  parameter  NAME           = "Allen Joe A",
+  parameter  LOCATION       = "Chennai, India",
+  parameter  INSTITUTION    = "VIT Chennai",
+  parameter  DEGREE         = "Electronics & VLSI Engineering"
+)(
+  input  wire        clk,
+  input  wire        rst_n,
+  output reg  [7:0]  innovation
+);
 
-  // Professional Interests
-  wire asic_design, rtl_design, verification;
-  wire semiconductor_modeling, tcad_simulation;
-  wire embedded_systems, fpga_development;
+  // ── Internal Signals ──────────────────────────────────────
+  wire  asic_physical_design;    // Floorplan → Tapeout
+  wire  rtl_design;              // Verilog / SystemVerilog
+  wire  functional_verification; // SVA, UVM, Coverage
+  wire  tcad_device_modeling;    // Sentaurus TCAD, VTFET/FinFET
+  wire  gnn_litho_research;     // GNN+Transformer EPE prediction
+  wire  embedded_systems;        // STM32, FPGA, ADC/DMA
 
-  always @(*) begin
-    innovation = asic_design & rtl_design & full_custom_design;
-    passion = semiconductor_modeling;
+  // ── Combinational Logic ───────────────────────────────────
+  assign innovation = {asic_physical_design,
+                       rtl_design,
+                       functional_verification,
+                       tcad_device_modeling,
+                       gnn_litho_research,
+                       embedded_systems,
+                       2'b11};  // always learning
+
+  // ── Sequential — never stops ──────────────────────────────
+  always @(posedge clk or negedge rst_n) begin
+    if (!rst_n)
+      innovation <= 8'h00;
+    else
+      innovation <= innovation + 1'b1;  // continuous growth
   end
 
 endmodule
 ```
 
----
+<br/>
 
-## VLSI & Semiconductor Skills
+## Chip Floorplan &#x2014; Skills & Expertise
 
-<!-- Placeholder - will be replaced with floorplan SVG -->
-- RTL Design (Verilog/SystemVerilog)
-- Verification (SVA, testbenches)
-- Physical Design (PnR, CTS, timing)
-- TCAD Device Modeling (Sentaurus)
-- GNN Research (computational lithography)
-- Embedded Systems (STM32, FPGA)
+<div align="center">
 
----
+<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/floorplan-skills.svg" width="100%" alt="Chip Floorplan - Skills & Expertise Diagram"/>
 
-## Tools & Technologies
+</div>
 
-<!-- Placeholder - will be replaced with timing diagram SVG -->
-Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git, ModelSim
+<br/>
 
----
+## Tools & Technologies &#x2014; Timing Diagram
 
-## Featured Projects
+<div align="center">
 
-<!-- Placeholder - will be replaced with tape-out log table -->
-- [DG-Source-Pocket-Engineered-Vertical-TFET](https://github.com/ALLENJOE-A/DG-Source-Pocket-Engineered-Vertical-TFET)
-- [Digital-Oscilloscope-STM32](https://github.com/ALLENJOE-A/Digital-Oscilloscope-STM32)
-- [GNN-T_Edge-Error-Prediction-for-Computational-Lithography](https://github.com/ALLENJOE-A/GNN-T_Edge-Error-Prediction-for-Computational-Lithography)
-- Cascode Differential Amplifier (LTspice, no repo yet)
+<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/timing-diagram-tools.svg" width="100%" alt="Tools Proficiency - Timing Diagram"/>
 
----
+</div>
+
+<br/>
+
+## Tape-Out Log &#x2014; Featured Projects
+
+```
+╔═══════════╦══════════════════════════════════════════════════╦══════════════════════╦════════════════╦══════════════════════════════╗
+║  LOT_ID   ║  PROJECT                                         ║  DOMAIN              ║  STATUS        ║  STACK                       ║
+╠═══════════╬══════════════════════════════════════════════════╬══════════════════════╬════════════════╬══════════════════════════════╣
+║  AJA-001  ║  DG-Source-Pocket-Engineered-Vertical-TFET       ║  TCAD / Device Sim   ║  ■ TAPED OUT   ║  Sentaurus TCAD, Batchfile   ║
+║  AJA-002  ║  Digital-Oscilloscope-STM32                      ║  Embedded Systems    ║  ■ TAPED OUT   ║  STM32, C, ADC+DMA, ILI9341  ║
+║  AJA-003  ║  GNN-T_Edge-Error-Prediction-Lithography         ║  ML / Comp. Litho    ║  ■ TAPED OUT   ║  Python, PyTorch, GNN+Trans   ║
+║  AJA-004  ║  Cascode Differential Amplifier                  ║  Analog / Mixed-Sig  ║  □ IN DESIGN   ║  LTspice, MOSFET, Op-Amp     ║
+╚═══════════╩══════════════════════════════════════════════════╩══════════════════════╩════════════════╩══════════════════════════════╝
+```
+
+> **Repo Links:**
+> [`AJA-001`](https://github.com/ALLENJOE-A/DG-Source-Pocket-Engineered-Vertical-TFET) &#x2022;
+> [`AJA-002`](https://github.com/ALLENJOE-A/Digital-Oscilloscope-STM32) &#x2022;
+> [`AJA-003`](https://github.com/ALLENJOE-A/GNN-T_Edge-Error-Prediction-for-Computational-Lithography) &#x2022;
+> `AJA-004` *(repo coming soon)*
+
+<br/>
 
 ## GitHub Statistics
 
@@ -76,7 +112,7 @@ Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git
 
 </div>
 
----
+<br/>
 
 ## Contribution Graph
 
@@ -86,9 +122,9 @@ Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git
 
 </div>
 
----
+<br/>
 
-## Connect With Me
+## Connect
 
 <div align="center">
 
@@ -102,9 +138,7 @@ Verilog, SystemVerilog, Synopsys Sentaurus, Cadence, LTspice, STM32, Python, Git
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
-</div>
-
-<div align="center">
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=ALLENJOE-A&style=flat-square&color=00D9FF&label=Profile+Views" alt="Profile Views" />
 
