@@ -106,19 +106,34 @@ endmodule
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALLENJOE-A&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=8899AA&ring_color=00D9FF&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ALLENJOE-A&hide_border=true&background=0D1117&stroke=1A3A4A&ring=00D9FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=00D9FF&currStreakLabel=00D9FF&sideLabels=8899AA&dates=3A5A6A" />
-
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALLENJOE-A&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=8899AA&langs_count=8" />
 
 </div>
 
 <br/>
 
-## Contribution Graph
+## Contribution Activity
+
+Real-time contribution data &#x2014; all graphs auto-update from live GitHub activity.
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake-dark.svg)
+<!-- Streak Stats -->
+<img width="60%" src="https://github-readme-streak-stats.herokuapp.com/?user=ALLENJOE-A&hide_border=true&background=0D1117&stroke=1A3A4A&ring=00D9FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=00D9FF&currStreakLabel=00D9FF&sideLabels=8899AA&dates=3A5A6A" />
+
+<br/><br/>
+
+<!-- Activity Graph (last 31 days) -->
+<img width="95%" src="https://github-readme-activity-graph-xi.vercel.app/graph?username=ALLENJOE-A&bg_color=0D1117&color=8899AA&line=00D9FF&point=00FF88&area_color=00D9FF&area=true&hide_border=true&custom_title=Commit%20Activity%20(Last%2031%20Days)&title_color=00D9FF" alt="GitHub Activity Graph"/>
+
+<br/><br/>
+
+<!-- Snake Contribution Grid Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 </div>
 
