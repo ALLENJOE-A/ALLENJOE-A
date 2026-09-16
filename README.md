@@ -105,8 +105,8 @@ endmodule
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ALLENJOE-A&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=8899AA&ring_color=00D9FF&count_private=true&include_all_commits=true" />
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ALLENJOE-A&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=8899AA&langs_count=8" />
+<img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ALLENJOE-A&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=8899AA&count_private=true&include_all_commits=true" />
+<img width="40%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=ALLENJOE-A&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=8899AA&langs_count=8" />
 
 </div>
 
@@ -129,11 +129,15 @@ Real-time contribution data &#x2014; all graphs auto-update from live GitHub act
 <br/><br/>
 
 <!-- Snake Contribution Grid Animation -->
+<!-- Note: Run the "Generate Snake Animation" workflow first to create the output branch -->
+<!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake.svg" />
   <img alt="Snake animation" src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/output/github-contribution-grid-snake-dark.svg" />
 </picture>
+-->
+<p style="color:#8899AA;font-size:14px;">🐍 Snake animation will appear here after triggering the workflow: <a href="https://github.com/ALLENJOE-A/ALLENJOE-A/actions">Actions → Generate Snake Animation → Run workflow</a></p>
 
 </div>
 
