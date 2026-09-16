@@ -36,15 +36,13 @@ endmodule
 
 ---
 
-## VLSI & Semiconductor Skills
+## Chip Floorplan &#x2014; Skills & Expertise
 
-<!-- Placeholder - will be replaced with floorplan SVG -->
-- RTL Design (Verilog/SystemVerilog)
-- Verification (SVA, testbenches)
-- Physical Design (PnR, CTS, timing)
-- TCAD Device Modeling (Sentaurus)
-- GNN Research (computational lithography)
-- Embedded Systems (STM32, FPGA)
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/floorplan-skills.svg" width="100%" alt="Chip Floorplan - Skills & Expertise Diagram"/>
+
+</div>
 
 ---
 
