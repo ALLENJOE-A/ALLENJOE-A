@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/ALLENJOE-A/ALLENJOE-A/main/assets/header-die-shot.svg" width="100%" alt="Allen Joe A - VLSI Engineer | Chip Designer | RTL Developer"/>
 
 <!-- Typing Animation Effect -->
-<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=ASIC+Physical+Design+%7C+RTL+Design;TCAD+%2F+Device+Modeling+%7C+GNN+Research;Functional+Verification+%7C+Embedded+Systems" alt="Typing SVG" /></a>
+<a href="https://readme-typing-svg.demolab.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=ASIC+Physical+Design+%7C+RTL+Design;TCAD+%2F+Device+Modeling+%7C+GNN+Research;Embedded+Systems" alt="Typing SVG" /></a>
 
 </div>
 
@@ -33,7 +33,6 @@ module allen_joe_engineer #(
   // ── Internal Signals ──────────────────────────────────────
   wire  asic_physical_design;    // Floorplan → Tapeout
   wire  rtl_design;              // Verilog / SystemVerilog
-  wire  functional_verification; // SVA, UVM, Coverage
   wire  tcad_device_modeling;    // Sentaurus TCAD, VTFET/FinFET
   wire  gnn_litho_research;     // GNN+Transformer EPE prediction
   wire  embedded_systems;        // STM32, FPGA, ADC/DMA
@@ -41,7 +40,6 @@ module allen_joe_engineer #(
   // ── Combinational Logic ───────────────────────────────────
   assign innovation = {asic_physical_design,
                        rtl_design,
-                       functional_verification,
                        tcad_device_modeling,
                        gnn_litho_research,
                        embedded_systems,
