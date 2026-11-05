@@ -74,7 +74,7 @@
 
   <!-- Signal 5: Cadence — medium (55%) -->
   <text class="signal-label" x="165" y="268">Cadence</text>
-  <polyline points="180,275 180,255 560,255 560,275 840,275" stroke="#00FF88" stroke-width="2" fill="none"/>
+  <polyline points="180,275 180,255 560,255 560,275 840,275" stroke="#268BFF" stroke-width="2" fill="none"/>
   <line class="grid-h" x1="15" y1="285" x2="860" y2="285"/>
 
   <!-- Signal 6: STM32/Embedded — medium (50%) -->
