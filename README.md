@@ -103,7 +103,7 @@ endmodule
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ALLENJOE-A&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=8899AA&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=ALLENJOE-A&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=268BFF&text_color=8899AA&count_private=true&include_all_commits=true" />
 <img width="40%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=ALLENJOE-A&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=8899AA&langs_count=8" />
 
 </div>
@@ -122,7 +122,7 @@ Real-time contribution data &#x2014; all graphs auto-update from live GitHub act
 <br/><br/>
 
 <!-- Activity Graph (last 31 days) -->
-<img width="95%" src="https://github-readme-activity-graph-xi.vercel.app/graph?username=ALLENJOE-A&bg_color=0D1117&color=8899AA&line=00D9FF&point=00FF88&area_color=00D9FF&area=true&hide_border=true&custom_title=Commit%20Activity%20(Last%2031%20Days)&title_color=00D9FF" alt="GitHub Activity Graph"/>
+<img width="95%" src="https://github-readme-activity-graph-xi.vercel.app/graph?username=ALLENJOE-A&bg_color=0D1117&color=8899AA&line=00D9FF&point=268BFF&area_color=00D9FF&area=true&hide_border=true&custom_title=Commit%20Activity%20(Last%2031%20Days)&title_color=00D9FF" alt="GitHub Activity Graph"/>
 
 <br/><br/>
 
