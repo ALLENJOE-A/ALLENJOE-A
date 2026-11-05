@@ -16,9 +16,9 @@ jobs:
       - name: Generate snake game from GitHub contribution graph
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ALLENJOE-A
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#00D9FF&color_dots=#161B22,#0A3A60,#0E6BA8,#00A3E0,#00D9FF
+            dist/github-contribution-grid-snake.svg?color_snake=#00D9FF
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D9FF&color_dots=#161B22,#0A3A60,#0E6BA8,#00A3E0,#00D9FF
 
       - name: Push snake SVG to output branch
