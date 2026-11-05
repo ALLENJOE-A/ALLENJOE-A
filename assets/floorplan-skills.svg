@@ -7,12 +7,12 @@
       .chip-border { fill: none; stroke: #00D9FF; stroke-width: 1.5; }
       .macro-block { stroke-width: 1.5; rx: 2; }
       .macro-label { font-size: 13px; font-weight: 700; fill: #FFFFFF; }
-      .macro-sub { font-size: 9px; fill: #8899AA; }
+      .macro-sub { font-size: 9px; fill: #AAB8C5; }
       .route-line { stroke-width: 1; fill: none; }
       .via { r: 3; }
-      .section-title { font-size: 11px; fill: #3A6A7A; letter-spacing: 3px; }
-      .die-label { font-size: 9px; fill: #2A4A5A; }
-      .power-ring { fill: none; stroke: #FF6B6B; stroke-width: 1; stroke-dasharray: 4,2; opacity: 0.3; }
+      .section-title { font-size: 11px; fill: #00D9FF; letter-spacing: 3px; }
+      .die-label { font-size: 9px; fill: #AAB8C5; }
+      .power-ring { fill: none; stroke: #268BFF; stroke-width: 1; stroke-dasharray: 4,2; opacity: 0.4; }
       .grid-line { stroke: #0A1A2A; stroke-width: 0.5; }
     </style>
   </defs>

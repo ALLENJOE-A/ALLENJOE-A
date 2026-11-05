@@ -5,14 +5,14 @@
       text { font-family: 'JetBrains Mono', 'Courier New', monospace; }
       .bg { fill: #0D1117; }
       .border { fill: none; stroke: #1A3A4A; stroke-width: 1; }
-      .signal-label { font-size: 11px; fill: #8899AA; text-anchor: end; }
+      .signal-label { font-size: 11px; fill: #AAB8C5; text-anchor: end; }
       .signal-active { font-size: 11px; fill: #FFFFFF; text-anchor: end; font-weight: 700; }
       .grid-v { stroke: #0A1A2A; stroke-width: 0.5; stroke-dasharray: 2,4; }
       .grid-h { stroke: #0A1A2A; stroke-width: 0.5; }
-      .axis-label { font-size: 8px; fill: #2A4A5A; text-anchor: middle; }
-      .title { font-size: 11px; fill: #3A6A7A; letter-spacing: 3px; text-anchor: middle; }
-      .clk-line { stroke: #3A5A6A; stroke-width: 1; fill: none; }
-      .time-marker { font-size: 7px; fill: #2A4A5A; text-anchor: middle; }
+      .axis-label { font-size: 8px; fill: #AAB8C5; text-anchor: middle; }
+      .title { font-size: 11px; fill: #00D9FF; letter-spacing: 3px; text-anchor: middle; }
+      .clk-line { stroke: #268BFF; stroke-width: 1; fill: none; }
+      .time-marker { font-size: 7px; fill: #AAB8C5; text-anchor: middle; }
     </style>
   </defs>
 
@@ -87,9 +87,9 @@
   <polyline points="180,355 180,335 460,335 460,355 840,355" stroke="#FF9F43" stroke-width="2" fill="none"/>
 
   <!-- Signal 8: Git — always on but low (background) -->
-  <text class="signal-label" x="165" y="368" style="font-size:8px;fill:#2A4A5A">Git</text>
-  <line x1="180" y1="362" x2="840" y2="362" stroke="#3A5A6A" stroke-width="1" stroke-dasharray="3,3"/>
+  <text class="signal-label" x="165" y="368" style="font-size:8px;fill:#AAB8C5">Git</text>
+  <line x1="180" y1="362" x2="840" y2="362" stroke="#268BFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
 
   <!-- Legend note -->
-  <text style="font-size:8px;fill:#2A4A5A" x="20" y="370">HIGH = actively used | Duration &#x221D; centrality to workflow</text>
+  <text style="font-size:8px;fill:#AAB8C5" x="20" y="370">HIGH = actively used | Duration &#x221D; centrality to workflow</text>
 </svg>

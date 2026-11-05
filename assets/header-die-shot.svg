@@ -8,7 +8,7 @@
       .alignment-mark { fill: none; stroke: #00D9FF; stroke-width: 1.5; }
       .name-text { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 42px; font-weight: 700; fill: #FFFFFF; }
       .title-text { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 14px; fill: #00D9FF; letter-spacing: 4px; }
-      .reticle-label { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 9px; fill: #3A5A6A; }
+      .reticle-label { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 9px; fill: #AAB8C5; }
       .pad-ring { fill: none; stroke: #1A3A4A; stroke-width: 0.5; }
       .bond-pad { fill: #1A2A3A; stroke: #2A4A5A; stroke-width: 0.5; }
       .corner-cross { stroke: #00D9FF; stroke-width: 1; }
@@ -132,7 +132,7 @@
 
   <!-- Reticle/die labeling (top-metal style) -->
   <text class="reticle-label" x="45" y="44">LOT: AJA-2024 | WAFER: 01 | DIE: (0,0)</text>
-  <text class="reticle-label" x="700" y="44">REV: 1.0 | PROCESS: 7nm</text>
+  <text class="reticle-label" x="700" y="44">REV: 1.0 | PROCESS: CMOS / VLSI</text>
   <text class="reticle-label" x="45" y="195">VIT CHENNAI FOUNDRY | VLSI ENGINEERING</text>
   <text class="reticle-label" x="700" y="195">github.com/ALLENJOE-A</text>
 
@@ -146,5 +146,5 @@
   <line x1="250" y1="150" x2="650" y2="150" stroke="#00D9FF" stroke-width="0.5" opacity="0.4"/>
 
   <!-- Small detail text -->
-  <text class="reticle-label" x="450" y="168" text-anchor="middle" fill="#3A6A7A">Electronics &amp; VLSI Engineering | VIT Chennai | Chennai, India</text>
+  <text class="reticle-label" x="450" y="168" text-anchor="middle" fill="#AAB8C5">Electronics &amp; VLSI Engineering | VIT Chennai | Chennai, India</text>
 </svg>
